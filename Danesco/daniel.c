@@ -20,16 +20,18 @@ int main()
         switch (op)
         {
         case 1:
+            printf("\nDigite o usuário: ");
+            scanf("%s", user);
             printf("\nDigite a senha: ");
             scanf("%s", key);
-            if (strcmp(key, keypad) == 0)
+            if (strcmp(user, userpad) == 0 && strcmp(key, keypad) == 0)
             {
                 printf("\nLogin efetuado com sucesso!\n");
                 system("pause");
             }
             else
             {
-                printf("\nSenha incorreta!\n");
+                printf("\nUsuário ou senha incorretos!\n");
                 system("pause");
             }
             break;

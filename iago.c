@@ -7,10 +7,15 @@
 int idA;
 char senhaA[tamanho];
 
-typedef struct Produtos
+typedef struct produtos
 {
+    char iPhone[tamanho];
+    char Macbooks[tamanho];
+    char iPad[tamanho];
+    char iPods[tamanho];
+    char Acessorios[tamanho];
     
-} produtos;
+} Produtos;
 
 
 void menufunc(){

@@ -20,7 +20,7 @@ typedef struct produtos
 
 void menufunc(){
     int opc;
-    printf("_____ MENU FUNCIONARIO _____\n");
+    printf("_____ MENU DO FUNCIONARIO _____\n");
     printf("1 - Produtos\n");
     printf("2 - Numero de comprar\n");
     printf("3 - Estoque\n");
